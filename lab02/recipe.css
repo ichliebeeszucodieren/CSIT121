@@ -1,0 +1,20 @@
+body {
+	background-color: #DDD5F3;
+}
+p {
+	font-family: Helvetica;
+	color: black;
+	text-align: center;
+}
+h1 {
+	font-family: Georgia;
+	text-transform: uppercase;
+}
+h2 {
+	font-family: Georgia;
+	font-style: oblique;
+}
+li {
+	color: #8B6914;
+	margin: 10px;
+}
