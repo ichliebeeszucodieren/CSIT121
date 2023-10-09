@@ -1,0 +1,32 @@
+body {
+	background-color: #DDD5F3;
+}
+p {
+	font-family: Helvetica;
+	color: black;
+	text-align: center;
+}
+h1 {
+	text-transform: uppercase;
+	font-family: Georgia;
+}
+h2 {
+	font-style: oblique;
+	font-family: Georgia;
+}
+li {
+	color: #8B6914;
+	margin: 10px;
+}
+.backgroundimage
+	{
+	background-image: url(images/titleimage.webp);
+	background-color: #C8A2C8;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	width: 100%;
+	block-size: 200px;
+	background-repeat: repeat-x;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px #5A5A5A;
+}
