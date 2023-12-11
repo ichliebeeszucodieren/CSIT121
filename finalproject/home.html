@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" media="screen">
+    <title>Art Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>My Art Portfolio</h1>
+        <h2>By Varsha Kumar</h2>
+    </header>
+    <nav>
+        <a href="home.html">Home / About</a>
+        <a href="drawings.html">Drawings</a>
+        <a href="paintings.html">Paintings</a>
+        <a href="claymultimedia.html">Clay and Multimedia</a>
+    </nav>
+    <div class="middle">
+    <main>
+        <h1 id="title1">Welcome to the Home Page!</h1>
+        <h1 id="title2">About</h1>
+        <p id="p1">Hello! Welcome to my final project website for CSIT 121! This website is a blog-like art portfolio website where you can see many pieces of my artwork and a commentary of my thought process behind it. I would like to not reveal much about my personal life, but I recently have gotten into art and I have found it to be calming and relaxing. For art enthusiants to people who just got bored, feel free to look around and get some inspirations!</p>
+        <br>
+        <p id="p2">By the way, if you are interested, fill out the form to the right about your opinions about this website and art!</p>
+        
+        <img id="guineapig" src="images/guineapig.png" alt="Picture of guinea pig." width="200px">
+    </main>
+    <aside>
+        <table>
+            <tr>
+                <td colspan="4">Table on My Opinions on Art</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Drawing</td>
+                <td>Painting</td>
+                <td>Clay/Multimedia</td>
+            </tr>
+            <tr>
+                <td>Most Talented</td>
+                <td></td>
+                <td>X</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Enjoys the Most</td>
+                <td></td>
+                <td>X</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Hardest Art Skill</td>
+                <td></td>
+                <td></td>
+                <td>X</td>
+            </tr>
+        </table>
+        <h2>Tell us your opinions!</h2>
+        <form>
+            <label for="firstname">First Name:</label>
+			<input type="text" name="firstname" id="firstname">
+			<br>
+			<label for="lastname">Last Name:</label>
+			<input type="text" name="lastname" id="lastname">
+			<br>
+			<label for="mosttalented">Most talented:</label>
+			<select size="1" name="mosttalented" id="mosttalented">
+				<option value="Selectfavart">Select here!</option>
+				<option value="drawing">Drawing</option>
+				<option value="painting">Painting</option>
+				<option value="multimedia">Multimedia</option>
+				<option value="other">Other</option>
+			</select>
+			<br>
+            <label for="enjoysthemost">Enjoys the most:</label>
+			<select size="1" name="enjoysthemost" id="enjoysthemost">
+				<option value="Selectfavart">Select here!</option>
+				<option value="drawing">Drawing</option>
+				<option value="painting">Painting</option>
+				<option value="multimedia">Multimedia</option>
+				<option value="other">Other</option>
+			</select>
+            <br>
+            <label for="hardestskill">Hardest Skill:</label>
+			<select size="1" name="hardestskill" id="hardestskill">
+				<option value="Selectfavart">Select here!</option>
+				<option value="drawing">Drawing</option>
+				<option value="painting">Painting</option>
+				<option value="multimedia">Multimedia</option>
+				<option value="other">Other</option>
+			</select>
+            <br>
+			<input type="submit">
+			<input type="reset">
+        </form>
+        
+    </aside>
+</div>
+</body>
+</html>
